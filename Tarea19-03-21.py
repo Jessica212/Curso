@@ -1,0 +1,11 @@
+print("\tUniversidad Metropolitana de Monterrey\n")
+print("\tSimulador de Promedio\n")
+nombre=input("Ingresa tu nombre ")
+cal1=int(input("Calificación 1: "))
+cal2=int(input("Calificación 2: "))
+cal3=int(input("Calificación 3: "))
+cal4=int(input("Calificación 4: "))
+cal5=int(input("Calificación 5: "))
+calf=(cal1+cal2+cal3+cal4+cal5)/5
+print("\tTu promedio es \t",calf,nombre)
+print("Adiós")
